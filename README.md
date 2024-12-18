@@ -12,4 +12,8 @@ Setup and Installation
   Install the required gems: bundle install
 
   Run the test cases: bundle exec rspec
- 
+
+UI Instructions
+
+  Open your browser and go to `http://localhost:3000`.
+  This will show the String Calculator UI where you can input numbers, and it will calculate the sum of numbers.
