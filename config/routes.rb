@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-  get 'string_calculators/index'
   get 'string_calculators/calculate'
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
@@ -12,5 +11,5 @@ Rails.application.routes.draw do
   # get "service-worker" => "rails/pwa#service_worker", as: :pwa_service_worker
 
   # Defines the root path route ("/")
-  root "string_calculators#calculate"
+  root "string_calculators#index"
 end
